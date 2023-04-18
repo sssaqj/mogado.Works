@@ -1,0 +1,196 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 0.9rem;
+  color: #303030;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*-------------------
+basic
+-------------------*/
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.sec-title {
+  background-image: url(/Users/sana/Desktop/programs/HTML/テストHP/ポートフォリオ/mogadoWorks/img/greenBack.png);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 250px;
+  width: 250px;
+  margin: 130px auto 100px;
+}
+.sec-title img {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.sec-title h3 {
+  text-align: center;
+  font-family: Skia;
+  font-size: 2.6rem;
+  font-weight: 400;
+  margin-top: -5px;
+}
+.sec-title p {
+  text-align: center;
+  font-family: "ヒラギノ丸ゴ proN";
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+/*-------------------
+MAINVISUAL
+-------------------*/
+.mainvisual {
+  background-image: url(/Users/sana/Desktop/programs/HTML/テストHP/ポートフォリオ/mogadoWorks/img/mainvisual.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.mainvisual img {
+  width: 300px;
+  height: 425px;
+  margin: 0 auto;
+  padding-bottom: 125px;
+}
+.mainvisual h1 {
+  color: black;
+  font-size: 3.2rem;
+  margin-top: -210px;
+  margin-bottom: 80px;
+  padding-right: 10px;
+  font-family: Skia;
+}
+
+/*-------------------
+portforio
+-------------------*/
+.portforio {
+  display: flex;
+  justify-content: space-between;
+}
+.portforio img {
+  height: 156.25px;
+  width: 250px;
+}
+
+/*-------------------
+about
+-------------------*/
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dee1e4;
+  border-radius: 30px;
+}
+.about-content .about-content-img {
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+  /* justify-content: center; */
+  flex-shrink: 0;
+  align-items: center;
+}
+.about-content .about-content-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+  flex-shrink: 0;
+}
+
+.about-text {
+  padding: 30px 30px 30px 0;
+}
+
+/*-------------------
+contact
+-------------------*/
+.contact p {
+  text-align: center;
+}
+.contact form {
+  display: grid;
+  grid-template-columns: 43px 100px 50px 300px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 50px 100px 150px;
+  justify-content: center;
+}
+.contact form span {
+  background-color: #6f2f20;
+  color: #f0f0f0;
+  border-radius: 5px;
+  padding: 3px 10px;
+  font-size: 0.7rem;
+}
+.contact form input {
+  background-color: #dee1e4;
+  border-radius: 5px;
+  text-align: center;
+  grid-column: 3/5;
+}
+.contact form .messageBox{
+  background-color: #dee1e4;
+  border-radius: 5px;
+  grid-column: 3/5;
+  grid-row: 3/8;
+  padding: 5px;
+}
+.contact form .submit-box{
+  grid-column: 1/5;
+  grid-row: 8/9;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.contact form .submit-box .submit{
+  background-color: #dee1e4;
+  padding: 2px 30px;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  color: #2b0048;
+}
+
+/*-------------------
+footer
+-------------------*/
+.footer-content {
+  background-image: url(/Users/sana/Desktop/programs/HTML/テストHP/ポートフォリオ/mogadoWorks/img/footer.jpg);
+  height: 92px;
+  color: #dee1e4;
+}
+.footer-content p {
+  text-align: center;
+  line-height: 92px;
+  font-size: 0.75rem;
+}
+
+/*# sourceMappingURL=style.css.map */
