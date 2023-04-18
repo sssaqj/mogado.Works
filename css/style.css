@@ -29,7 +29,7 @@ basic
 }
 
 .sec-title {
-  background-image: url(/Users/sana/Desktop/programs/HTML/テストHP/ポートフォリオ/mogadoWorks/img/greenBack.png);
+  background-image: url(img/greenBack.png);
   display: flex;
   flex-direction: column;
   color: white;
@@ -62,7 +62,7 @@ basic
 MAINVISUAL
 -------------------*/
 .mainvisual {
-  background-image: url(/Users/sana/Desktop/programs/HTML/テストHP/ポートフォリオ/mogadoWorks/img/mainvisual.jpg);
+  background-image: url(img/mainvisual.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -183,7 +183,7 @@ contact
 footer
 -------------------*/
 .footer-content {
-  background-image: url(/Users/sana/Desktop/programs/HTML/テストHP/ポートフォリオ/mogadoWorks/img/footer.jpg);
+  background-image: url(img/footer.jpg);
   height: 92px;
   color: #dee1e4;
 }
