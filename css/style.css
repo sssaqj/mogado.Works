@@ -45,14 +45,14 @@ basic
 }
 .sec-title h3 {
   text-align: center;
-  font-family: Skia;
+  font-family: Skia Segoe UI Black;
   font-size: 2.6rem;
   font-weight: 400;
   margin-top: -5px;
 }
 .sec-title p {
   text-align: center;
-  font-family: "ヒラギノ丸ゴ proN";
+  font-family: "ヒラギノ丸ゴ proN" "MS ゴシック";
   margin-top: 10px;
   font-size: 1rem;
   font-weight: 100;
@@ -85,7 +85,7 @@ MAINVISUAL
   margin-top: -210px;
   margin-bottom: 80px;
   padding-right: 10px;
-  font-family: Skia;
+  font-family: Skia Segoe UI Black;
 }
 
 /*-------------------
@@ -183,7 +183,7 @@ contact
 footer
 -------------------*/
 .footer-content {
-  background-image: url(img/footer.jpg);
+  background-image: url(../img/footer.jpg);
   height: 92px;
   color: #dee1e4;
 }
