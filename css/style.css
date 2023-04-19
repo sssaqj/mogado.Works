@@ -52,7 +52,7 @@ basic
 }
 .sec-title p {
   text-align: center;
-  font-family: "ヒラギノ丸ゴ proN" "MS ゴシック";
+  font-family: "ヒラギノ丸ゴ proN", "Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
   margin-top: 10px;
   font-size: 1rem;
   font-weight: 100;
