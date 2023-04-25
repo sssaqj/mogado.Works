@@ -35,7 +35,7 @@ basic
   color: white;
   height: 250px;
   width: 250px;
-  margin: 130px auto 100px;
+  margin: 100px auto;
 }
 .sec-title img {
   width: 90px;
@@ -45,7 +45,7 @@ basic
 }
 .sec-title h3 {
   text-align: center;
-  font-family: Skia Segoe UI Black;
+  font-family: Skia, Segoe UI Black;
   font-size: 2.6rem;
   font-weight: 400;
   margin-top: -5px;
@@ -85,12 +85,15 @@ MAINVISUAL
   margin-top: -210px;
   margin-bottom: 80px;
   padding-right: 10px;
-  font-family: Skia Segoe UI Black;
+  font-family: Skia, Segoe UI Black;
 }
 
 /*-------------------
 portforio
 -------------------*/
+.works{
+  margin-top: 130px;
+}
 .portforio {
   display: flex;
   justify-content: space-between;
@@ -99,7 +102,40 @@ portforio
   height: 156.25px;
   width: 250px;
 }
-
+.forio-link{
+  position: relative;
+  width: 250px;
+}
+.hover-mask{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 77px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(23, 52, 64, .5);
+  color: #f3f3f3;
+  opacity: 0;
+  transition: opacity .6s ease;
+}
+.hover-mask:hover{
+  opacity: 1;
+}
+.under-text{
+  margin-top: 10px;
+  color: #303030;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 2.2s ease;
+}
+.hover-mask:hover ~ .under-text{
+  opacity: 1;
+}
 /*-------------------
 about
 -------------------*/
@@ -114,7 +150,6 @@ about
   height: 100px;
   width: 100px;
   margin: 50px;
-  /* justify-content: center; */
   flex-shrink: 0;
   align-items: center;
 }
@@ -133,6 +168,9 @@ about
 /*-------------------
 contact
 -------------------*/
+.contact{
+  margin-top: 130px;
+}
 .contact p {
   text-align: center;
 }
